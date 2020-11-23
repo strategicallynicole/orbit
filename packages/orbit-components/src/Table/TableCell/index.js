@@ -25,6 +25,7 @@ export const StyledTableCell = styled(
   vertical-align: ${({ verticalAlign }) => verticalAlign};
 `;
 
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 StyledTableCell.defaultProps = {
   theme: defaultTheme,
 };

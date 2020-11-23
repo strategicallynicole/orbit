@@ -39,6 +39,7 @@ const StyledTableOuter = styled.div`
   }
 `;
 
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 StyledTableOuter.defaultProps = {
   theme: defaultTheme,
 };
@@ -91,6 +92,7 @@ const StyledTable = styled.table`
   }
 `;
 
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 StyledTable.defaultProps = {
   theme: defaultTheme,
 };

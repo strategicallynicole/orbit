@@ -79,6 +79,7 @@ export const StyledTag = styled.div`
     `};
 `;
 
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 StyledTag.defaultProps = {
   theme: defaultTheme,
 };
@@ -93,6 +94,7 @@ const IconContainer = styled.div`
   }
 `;
 
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 IconContainer.defaultProps = {
   theme: defaultTheme,
 };
@@ -115,6 +117,7 @@ const CloseContainer = styled.div`
   }
 `;
 
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 CloseContainer.defaultProps = {
   theme: defaultTheme,
 };
@@ -130,6 +133,7 @@ const StyledClose = styled.div`
         selected ? theme.orbit.paletteBlueDarker : theme.orbit.paletteBlueDarker};
   }
 `;
+// $FlowFixMe: https://github.com/flow-typed/flow-typed/issues/3653#issuecomment-568539198
 StyledClose.defaultProps = {
   theme: defaultTheme,
 };
