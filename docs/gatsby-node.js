@@ -1,5 +1,11 @@
 const { createFilePath } = require(`gatsby-source-filesystem`);
-const { omitNumbers } = require("./src/utils/common.ts");
+
+const omitNumbers = str =>
+  str
+    .split("/")
+    .map(s => s.replace(/^\d+-\s*/g, ""))
+    .join("/");
+
 // creates a "collection" field to it easier to filter nodes created by
 // gatsby-source-filesystem instead of awkwardly filtering by file path
 // https://github.com/gatsbyjs/gatsby/issues/1634#issuecomment-388899348
