@@ -8,6 +8,7 @@ import Prose from "../components/Prose";
 import * as components from "../mdx-components";
 
 interface Props {
+  location: string;
   data: {
     mdx: {
       frontmatter: {
@@ -18,10 +19,10 @@ interface Props {
   };
 }
 
-export default function Doc({ data }: Props) {
+export default function Doc({ data, location }: Props) {
   const { frontmatter, body } = data.mdx;
   return (
-    <Layout>
+    <Layout location={location} crumbLabel={frontmatter.title.toLowerCase().split(" ").join("-")}>
       <Prose>
         <Heading as="h1" type="display">
           {frontmatter.title}

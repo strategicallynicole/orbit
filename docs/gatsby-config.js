@@ -41,5 +41,17 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        defaultCrumb: {
+          location: {
+            pathname: "/",
+          },
+          crumbLabel: "orbit.kiwi",
+          crumbSeparator: " / ",
+        },
+      },
+    },
   ],
 };

@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import RocketImage from "../components/RocketImage";
 import { css } from "styled-components";
 
-export default function Home() {
+export default function Home({ location }) {
   return (
     <Layout>
       <RocketImage />
