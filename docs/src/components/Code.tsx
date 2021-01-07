@@ -20,7 +20,7 @@ interface CodeBlockProps {
   className: string;
 }
 export const CodeBlock = ({ children, className }: CodeBlockProps) => {
-  const language = className.replace(/language-/, "");
+  const language = className ? className.replace(/language-/, "") : "";
   return (
     <Highlight
       {...defaultProps}
