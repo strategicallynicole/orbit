@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Alert,
   Heading,
   Text,
   TextLink,
@@ -111,3 +112,6 @@ export const a = ({ children, href }: React.AnchorHTMLAttributes<HTMLAnchorEleme
     </span>
   );
 };
+export const Callout = (props) => (
+  <Alert icon {...props} />
+)
