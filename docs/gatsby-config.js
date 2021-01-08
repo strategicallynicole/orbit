@@ -18,6 +18,15 @@ module.exports = {
       resolve: "gatsby-plugin-mdx",
       options: {
         extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-smartypants`,
+            options: {
+              backticks: false,
+              dashes: `oldschool`,
+            },
+          },
+        ],
         remarkPlugins: [],
         rehypePlugins: [],
       },
