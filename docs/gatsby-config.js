@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   siteMetadata: {
     title: "Orbit",
@@ -59,6 +61,12 @@ module.exports = {
             slug: n => n.fields.slug,
           },
         },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        snippets: path.join(__dirname, "src/snippets"),
       },
     },
   ],
