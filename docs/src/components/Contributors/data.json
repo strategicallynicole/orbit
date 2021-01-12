@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Aaron Collier",
+    "info": "Aaron is responsible for our documentation. He maintains and improves every part of orbit.kiwi to be as useful as possible.",
+    "position": "Staff Technical Writer"
+  },
+  {
+    "name": "William Kolmačka",
+    "info": "Will is responsible for the design part of Orbit. He works on and maintains UI kit and occasionally helps with the coding of components in React.",
+    "position": "Product Designer"
+  },
+  {
+    "name": "Milan Seitler",
+    "info": "Milan is part of the core team for design. He contributes to the UI kit.",
+    "position": "Product Designer"
+  },
+  {
+    "name": "Luděk Vepřek",
+    "info": "Luděk leads our team. He is responsible for cross-platform API consistency between different implementations of Orbit components",
+    "position": "Engineering Lead"
+  },
+  {
+    "name": "Victor Genaev",
+    "info": "Victor is one of the core component contributors to the React implementation of Orbit and is responsible for refactoring larger components.",
+    "position": "Software Engineer"
+  },
+  {
+    "name": "Matija Marohnić",
+    "info": "Matija has extensive knowledge of frontend ecosystems. Besides working on React components, he also focuses on internal and external tooling to improve the overall developer experience with Orbit.",
+    "position": "Software Engineer"
+  },
+  {
+    "name": "Filip Daniško",
+    "info": "Filip maintained mostly React components and was also responsible for the whole accessibility aspect of Orbit.",
+    "position": "Software Engineer"
+  },
+  {
+    "name": "Tomáš Hapl",
+    "info": "Tom, besides his work on React components, was the main maintainer of Orbit packages. He empowered our developers by providing smooth-working tooling and was the main contributor to the Orbit Themer.",
+    "position": "Software Engineer"
+  },
+  {
+    "name": "Filip Mešša",
+    "info": "Filip has extensive experience with building React Native components for different Kiwi.com products and he used this experience to make React Native components more stable and usable.",
+    "position": "React Native Engineer"
+  },
+  {
+    "name": "Daniel Spitzer",
+    "info": "Daniel was in the core team for extending Orbit to React Native. He worked from Barcelona and was also responsible for React Native releases.",
+    "position": "React Native Engineer"
+  },
+  {
+    "name": "Jan Toman",
+    "info": "Jan managed Orbit in terms of product and design direction and maintained the roadmap. He enjoys design contributions, mostly to new components.",
+    "position": "Product Lead"
+  },
+  {
+    "name": "Jan Václavík",
+    "info": "Jan led our React Native developers and was one of the core component contributors to the React Native implementation of Orbit.",
+    "position": "React Native Lead"
+  }
+]

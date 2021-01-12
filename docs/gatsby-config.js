@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+});
+
 module.exports = {
   siteMetadata: {
     title: "Orbit",
@@ -40,6 +44,17 @@ module.exports = {
             excerpt: n => n.frontmatter.excerpt,
             slug: n => n.fields.slug,
           },
+        },
+      },
+    },
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
+        headers: {
+          Authorization: `Bearer ${process.env.GH_TOKEN}`,
         },
       },
     },
